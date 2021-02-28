@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F43DF9225E92F3000C78864 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43DF9125E92F3000C78864 /* AppDelegate.m */; };
+		7F43DF9825E92F3000C78864 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43DF9725E92F3000C78864 /* ViewController.m */; };
+		7F43DF9B25E92F3000C78864 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F43DF9925E92F3000C78864 /* Main.storyboard */; };
+		7F43DF9D25E92F3200C78864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F43DF9C25E92F3200C78864 /* Assets.xcassets */; };
+		7F43DFA025E92F3200C78864 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F43DF9E25E92F3200C78864 /* LaunchScreen.storyboard */; };
+		7F43DFA325E92F3200C78864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43DFA225E92F3200C78864 /* main.m */; };
+		7F43DFB425E9302400C78864 /* YLSplashAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43DFB225E9302400C78864 /* YLSplashAdView.m */; };
+		7F43DFB825E9313800C78864 /* YLSpalshAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43DFB725E9313800C78864 /* YLSpalshAdManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F43DF8D25E92F3000C78864 /* YLSplashAdDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLSplashAdDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F43DF9025E92F3000C78864 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F43DF9125E92F3000C78864 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F43DF9625E92F3000C78864 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F43DF9725E92F3000C78864 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F43DF9A25E92F3000C78864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F43DF9C25E92F3200C78864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F43DF9F25E92F3200C78864 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F43DFA125E92F3200C78864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F43DFA225E92F3200C78864 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F43DFAF25E9302400C78864 /* YLSplashAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSplashAdView.h; sourceTree = "<group>"; };
+		7F43DFB225E9302400C78864 /* YLSplashAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSplashAdView.m; sourceTree = "<group>"; };
+		7F43DFB625E9313800C78864 /* YLSpalshAdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSpalshAdManager.h; sourceTree = "<group>"; };
+		7F43DFB725E9313800C78864 /* YLSpalshAdManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSpalshAdManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F43DF8A25E92F3000C78864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F43DF8425E92F3000C78864 = {
+			isa = PBXGroup;
+			children = (
+				7F43DF8F25E92F3000C78864 /* YLSplashAdDemo */,
+				7F43DF8E25E92F3000C78864 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F43DF8E25E92F3000C78864 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F43DF8D25E92F3000C78864 /* YLSplashAdDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F43DF8F25E92F3000C78864 /* YLSplashAdDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7F43DFAE25E9302400C78864 /* YLSplashAd */,
+				7F43DF9025E92F3000C78864 /* AppDelegate.h */,
+				7F43DF9125E92F3000C78864 /* AppDelegate.m */,
+				7F43DF9625E92F3000C78864 /* ViewController.h */,
+				7F43DF9725E92F3000C78864 /* ViewController.m */,
+				7F43DF9925E92F3000C78864 /* Main.storyboard */,
+				7F43DF9C25E92F3200C78864 /* Assets.xcassets */,
+				7F43DF9E25E92F3200C78864 /* LaunchScreen.storyboard */,
+				7F43DFA125E92F3200C78864 /* Info.plist */,
+				7F43DFA225E92F3200C78864 /* main.m */,
+			);
+			path = YLSplashAdDemo;
+			sourceTree = "<group>";
+		};
+		7F43DFAE25E9302400C78864 /* YLSplashAd */ = {
+			isa = PBXGroup;
+			children = (
+				7F43DFAF25E9302400C78864 /* YLSplashAdView.h */,
+				7F43DFB225E9302400C78864 /* YLSplashAdView.m */,
+				7F43DFB625E9313800C78864 /* YLSpalshAdManager.h */,
+				7F43DFB725E9313800C78864 /* YLSpalshAdManager.m */,
+			);
+			path = YLSplashAd;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F43DF8C25E92F3000C78864 /* YLSplashAdDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F43DFA625E92F3200C78864 /* Build configuration list for PBXNativeTarget "YLSplashAdDemo" */;
+			buildPhases = (
+				7F43DF8925E92F3000C78864 /* Sources */,
+				7F43DF8A25E92F3000C78864 /* Frameworks */,
+				7F43DF8B25E92F3000C78864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLSplashAdDemo;
+			productName = YLSplashAdDemo;
+			productReference = 7F43DF8D25E92F3000C78864 /* YLSplashAdDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F43DF8525E92F3000C78864 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					7F43DF8C25E92F3000C78864 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 7F43DF8825E92F3000C78864 /* Build configuration list for PBXProject "YLSplashAdDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F43DF8425E92F3000C78864;
+			productRefGroup = 7F43DF8E25E92F3000C78864 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F43DF8C25E92F3000C78864 /* YLSplashAdDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F43DF8B25E92F3000C78864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F43DFA025E92F3200C78864 /* LaunchScreen.storyboard in Resources */,
+				7F43DF9D25E92F3200C78864 /* Assets.xcassets in Resources */,
+				7F43DF9B25E92F3000C78864 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F43DF8925E92F3000C78864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F43DF9825E92F3000C78864 /* ViewController.m in Sources */,
+				7F43DFB425E9302400C78864 /* YLSplashAdView.m in Sources */,
+				7F43DF9225E92F3000C78864 /* AppDelegate.m in Sources */,
+				7F43DFA325E92F3200C78864 /* main.m in Sources */,
+				7F43DFB825E9313800C78864 /* YLSpalshAdManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F43DF9925E92F3000C78864 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F43DF9A25E92F3000C78864 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F43DF9E25E92F3200C78864 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F43DF9F25E92F3200C78864 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F43DFA425E92F3200C78864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F43DFA525E92F3200C78864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F43DFA725E92F3200C78864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLSplashAdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.bytedance.com.YLSplashAdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F43DFA825E92F3200C78864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLSplashAdDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.bytedance.com.YLSplashAdDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F43DF8825E92F3000C78864 /* Build configuration list for PBXProject "YLSplashAdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F43DFA425E92F3200C78864 /* Debug */,
+				7F43DFA525E92F3200C78864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F43DFA625E92F3200C78864 /* Build configuration list for PBXNativeTarget "YLSplashAdDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F43DFA725E92F3200C78864 /* Debug */,
+				7F43DFA825E92F3200C78864 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F43DF8525E92F3000C78864 /* Project object */;
+}
