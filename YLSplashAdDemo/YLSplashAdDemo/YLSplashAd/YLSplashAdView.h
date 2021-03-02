@@ -1,20 +1,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^DidClickSpalshAdViewCallback)(void);
 
 @interface YLSplashAdView : UIView
 
-/**
-*  显示广告页面方法
-*/
-- (void)showInWindow:(UIWindow *)window;
-
-/**
- *  图片路径
- */
-@property (nonatomic, copy) NSString *filePath;
-
 @property (nonatomic, copy) NSString *imageName;
+@property (nonatomic, copy) DidClickSpalshAdViewCallback didClickSpalshAdViewCallback;
+
+- (void)showInWindow:(UIWindow *)window;
 
 
 @end

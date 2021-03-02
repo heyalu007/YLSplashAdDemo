@@ -15,6 +15,13 @@
 		7F43DFA325E92F3200C78864 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43DFA225E92F3200C78864 /* main.m */; };
 		7F43DFB425E9302400C78864 /* YLSplashAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43DFB225E9302400C78864 /* YLSplashAdView.m */; };
 		7F43DFB825E9313800C78864 /* YLSpalshAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43DFB725E9313800C78864 /* YLSpalshAdManager.m */; };
+		7F43DFC125EB73E900C78864 /* 0.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F43DFBE25EB73E900C78864 /* 0.jpeg */; };
+		7F43DFC225EB73E900C78864 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F43DFBF25EB73E900C78864 /* 1.jpeg */; };
+		7F43DFC325EB73E900C78864 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7F43DFC025EB73E900C78864 /* 2.jpeg */; };
+		7F43DFCB25ECD76B00C78864 /* YLSplashAdWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F43DFCA25ECD76A00C78864 /* YLSplashAdWebViewController.m */; };
+		7F43E08025ED117E00C78864 /* WechatIMG0.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F43E07D25ED117E00C78864 /* WechatIMG0.png */; };
+		7F43E08125ED117E00C78864 /* WechatIMG2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F43E07E25ED117E00C78864 /* WechatIMG2.png */; };
+		7F43E08225ED117E00C78864 /* WechatIMG1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F43E07F25ED117E00C78864 /* WechatIMG1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,14 @@
 		7F43DFB225E9302400C78864 /* YLSplashAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSplashAdView.m; sourceTree = "<group>"; };
 		7F43DFB625E9313800C78864 /* YLSpalshAdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSpalshAdManager.h; sourceTree = "<group>"; };
 		7F43DFB725E9313800C78864 /* YLSpalshAdManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSpalshAdManager.m; sourceTree = "<group>"; };
+		7F43DFBE25EB73E900C78864 /* 0.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpeg; sourceTree = "<group>"; };
+		7F43DFBF25EB73E900C78864 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		7F43DFC025EB73E900C78864 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		7F43DFC925ECD76A00C78864 /* YLSplashAdWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YLSplashAdWebViewController.h; sourceTree = "<group>"; };
+		7F43DFCA25ECD76A00C78864 /* YLSplashAdWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLSplashAdWebViewController.m; sourceTree = "<group>"; };
+		7F43E07D25ED117E00C78864 /* WechatIMG0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WechatIMG0.png; sourceTree = "<group>"; };
+		7F43E07E25ED117E00C78864 /* WechatIMG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WechatIMG2.png; sourceTree = "<group>"; };
+		7F43E07F25ED117E00C78864 /* WechatIMG1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WechatIMG1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +98,26 @@
 			children = (
 				7F43DFAF25E9302400C78864 /* YLSplashAdView.h */,
 				7F43DFB225E9302400C78864 /* YLSplashAdView.m */,
+				7F43DFC925ECD76A00C78864 /* YLSplashAdWebViewController.h */,
+				7F43DFCA25ECD76A00C78864 /* YLSplashAdWebViewController.m */,
 				7F43DFB625E9313800C78864 /* YLSpalshAdManager.h */,
 				7F43DFB725E9313800C78864 /* YLSpalshAdManager.m */,
+				7F43DFBD25EB73E900C78864 /* images */,
 			);
 			path = YLSplashAd;
+			sourceTree = "<group>";
+		};
+		7F43DFBD25EB73E900C78864 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7F43DFBE25EB73E900C78864 /* 0.jpeg */,
+				7F43DFBF25EB73E900C78864 /* 1.jpeg */,
+				7F43DFC025EB73E900C78864 /* 2.jpeg */,
+				7F43E07D25ED117E00C78864 /* WechatIMG0.png */,
+				7F43E07F25ED117E00C78864 /* WechatIMG1.png */,
+				7F43E07E25ED117E00C78864 /* WechatIMG2.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +176,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F43E08025ED117E00C78864 /* WechatIMG0.png in Resources */,
+				7F43DFC225EB73E900C78864 /* 1.jpeg in Resources */,
 				7F43DFA025E92F3200C78864 /* LaunchScreen.storyboard in Resources */,
+				7F43E08225ED117E00C78864 /* WechatIMG1.png in Resources */,
+				7F43DFC325EB73E900C78864 /* 2.jpeg in Resources */,
+				7F43E08125ED117E00C78864 /* WechatIMG2.png in Resources */,
 				7F43DF9D25E92F3200C78864 /* Assets.xcassets in Resources */,
+				7F43DFC125EB73E900C78864 /* 0.jpeg in Resources */,
 				7F43DF9B25E92F3000C78864 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +197,7 @@
 			files = (
 				7F43DF9825E92F3000C78864 /* ViewController.m in Sources */,
 				7F43DFB425E9302400C78864 /* YLSplashAdView.m in Sources */,
+				7F43DFCB25ECD76B00C78864 /* YLSplashAdWebViewController.m in Sources */,
 				7F43DF9225E92F3000C78864 /* AppDelegate.m in Sources */,
 				7F43DFA325E92F3200C78864 /* main.m in Sources */,
 				7F43DFB825E9313800C78864 /* YLSpalshAdManager.m in Sources */,

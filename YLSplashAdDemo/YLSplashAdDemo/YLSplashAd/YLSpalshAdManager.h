@@ -7,13 +7,22 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import "YLSplashAdView.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
+@protocol YLSpalshAdDelegate <NSObject>
+
+- (void)didClickSpalshAdView:(YLSplashAdView *)spalshAdView;
+
+@end
+
+
 @interface YLSpalshAdManager : NSObject
 
-+ (instancetype)sharedInstance;
+@property (nonatomic, weak) id<YLSpalshAdDelegate> delegate;
 
++ (instancetype)sharedInstance;
 
 - (void)showSpalshAdViewInWindow:(UIWindow *)window;
 

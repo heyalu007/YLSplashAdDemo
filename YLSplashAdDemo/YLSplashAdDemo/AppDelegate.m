@@ -26,6 +26,7 @@
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     
+    
     [[YLSpalshAdManager sharedInstance] showSpalshAdViewInWindow:[UIApplication sharedApplication].delegate.window];
     
     return YES;

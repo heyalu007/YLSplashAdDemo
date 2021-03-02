@@ -18,7 +18,7 @@
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 
-static int const kShowTime = 5;
+static int const kShowTime = 3;
 
 
 @implementation YLSplashAdView
@@ -41,8 +41,10 @@ static int const kShowTime = 5;
         _adView.contentMode = UIViewContentModeScaleAspectFill;
         _adView.clipsToBounds = YES;
 //        _adView.image = [UIImage imageNamed:@"LaunchImage_667h"];
-        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(pushToAd)];
+        UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(didClickSpalshAdView)];
         [_adView addGestureRecognizer:tap];
+        
+        [self addSubview:_adView];
         
         // 2.跳过按钮
         CGFloat btnW = 60;
@@ -52,22 +54,13 @@ static int const kShowTime = 5;
         [_countBtn setTitle:[NSString stringWithFormat:@"跳过%d", kShowTime] forState:UIControlStateNormal];
         _countBtn.titleLabel.font = [UIFont systemFontOfSize:15];
         [_countBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-        _countBtn.backgroundColor = [UIColor colorWithRed:38 /255.0 green:38 /255.0 blue:38 /255.0 alpha:0.6];
+        _countBtn.backgroundColor = [UIColor colorWithRed:20 /255.0 green:20 /255.0 blue:20 /255.0 alpha:0.8];
         _countBtn.layer.cornerRadius = 4;
-        
-        self.backgroundColor = [UIColor redColor];
-        
-        [self addSubview:_adView];
+
         [self addSubview:_countBtn];
         
     }
     return self;
-}
-
-- (void)setFilePath:(NSString *)filePath {
-    
-    _filePath = filePath;
-    _adView.image = [UIImage imageWithContentsOfFile:filePath];
 }
 
 - (void)setImageName:(NSString *)imageName {
@@ -75,9 +68,13 @@ static int const kShowTime = 5;
     _adView.image = [UIImage imageNamed:imageName];
 }
 
-- (void)pushToAd {
+- (void)didClickSpalshAdView {
+    [self.countTimer invalidate];
+    self.countTimer = nil;
     
-    [self removeAdvertView];
+    if (self.didClickSpalshAdViewCallback) {
+        self.didClickSpalshAdViewCallback();
+    }
 }
 
 - (void)countDown {
@@ -118,7 +115,7 @@ static int const kShowTime = 5;
         }else{
             
             dispatch_async(dispatch_get_main_queue(), ^{
-                [_countBtn setTitle:[NSString stringWithFormat:@"跳过%d",timeout] forState:UIControlStateNormal];
+                [weakSelf.countBtn setTitle:[NSString stringWithFormat:@"跳过%d",timeout] forState:UIControlStateNormal];
             });
             timeout--;
         }
